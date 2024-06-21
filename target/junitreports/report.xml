@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="199.929">
+    <testcase classname="Feature to test Login Functionality" name="Check Login sucessfull with valid credentials" time="42.451">
+        <system-out><![CDATA[Given user is on login pagee................................................passed
+When user enter beta1-18nov@yopmail.com and Sit@1234........................passed
+And user click login buttonn................................................passed
+Then user will move to home pagee...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Feature to test Login Functionality" name="Check Login sucessfull with valid credentials 2" time="38.798">
+        <system-out><![CDATA[Given user is on login pagee................................................passed
+When user enter beta2-18nov@yopmail.com and Sit@1234........................passed
+And user click login buttonn................................................passed
+Then user will move to home pagee...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Feature to test Login Functionality" name="Check Login sucessfull with valid credentials 3" time="38.809">
+        <system-out><![CDATA[Given user is on login pagee................................................passed
+When user enter beta3-18nov@yopmail.com and Sit@1234........................passed
+And user click login buttonn................................................passed
+Then user will move to home pagee...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Feature to test Login Functionality" name="Check Login sucessfull with valid credentials 4" time="39.802">
+        <system-out><![CDATA[Given user is on login pagee................................................passed
+When user enter beta4-18nov@yopmail.com and Sit@1234........................passed
+And user click login buttonn................................................passed
+Then user will move to home pagee...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Feature to test Login Functionality" name="Check Login sucessfull with valid credentials 5" time="39.353">
+        <system-out><![CDATA[Given user is on login pagee................................................passed
+When user enter beta5-18nov@yopmail.com and Sit@1234........................passed
+And user click login buttonn................................................passed
+Then user will move to home pagee...........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

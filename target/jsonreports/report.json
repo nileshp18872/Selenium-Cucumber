@@ -1,0 +1,407 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-24T13:18:25.088Z",
+        "line": 13,
+        "name": "Check Login sucessfull with valid credentials",
+        "description": "",
+        "id": "feature-to-test-login-functionality;check-login-sucessfull-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15611228500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on login pagee",
+            "match": {
+              "location": "StepDefinations.datadrivenSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5219631400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter beta1-18nov@yopmail.com and Sit@1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "beta1-18nov@yopmail.com",
+                  "offset": 11
+                },
+                {
+                  "val": "Sit@1234",
+                  "offset": 39
+                }
+              ],
+              "location": "StepDefinations.datadrivenSteps.user_enter_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15174291700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click login buttonn",
+            "match": {
+              "location": "StepDefinations.datadrivenSteps.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6375514900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user will move to home pagee",
+            "match": {
+              "location": "StepDefinations.datadrivenSteps.user_will_move_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test3"
+          },
+          {
+            "name": "@test3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-24T13:19:07.733Z",
+        "line": 14,
+        "name": "Check Login sucessfull with valid credentials",
+        "description": "",
+        "id": "feature-to-test-login-functionality;check-login-sucessfull-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12090207800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on login pagee",
+            "match": {
+              "location": "StepDefinations.datadrivenSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5186806200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter beta2-18nov@yopmail.com and Sit@1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "beta2-18nov@yopmail.com",
+                  "offset": 11
+                },
+                {
+                  "val": "Sit@1234",
+                  "offset": 39
+                }
+              ],
+              "location": "StepDefinations.datadrivenSteps.user_enter_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15191077500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click login buttonn",
+            "match": {
+              "location": "StepDefinations.datadrivenSteps.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6311587600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user will move to home pagee",
+            "match": {
+              "location": "StepDefinations.datadrivenSteps.user_will_move_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test3"
+          },
+          {
+            "name": "@test3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-24T13:19:46.537Z",
+        "line": 15,
+        "name": "Check Login sucessfull with valid credentials",
+        "description": "",
+        "id": "feature-to-test-login-functionality;check-login-sucessfull-with-valid-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12173128000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on login pagee",
+            "match": {
+              "location": "StepDefinations.datadrivenSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5186171400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter beta3-18nov@yopmail.com and Sit@1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "beta3-18nov@yopmail.com",
+                  "offset": 11
+                },
+                {
+                  "val": "Sit@1234",
+                  "offset": 39
+                }
+              ],
+              "location": "StepDefinations.datadrivenSteps.user_enter_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15182303900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click login buttonn",
+            "match": {
+              "location": "StepDefinations.datadrivenSteps.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6261755400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user will move to home pagee",
+            "match": {
+              "location": "StepDefinations.datadrivenSteps.user_will_move_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test3"
+          },
+          {
+            "name": "@test3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-24T13:20:25.349Z",
+        "line": 16,
+        "name": "Check Login sucessfull with valid credentials",
+        "description": "",
+        "id": "feature-to-test-login-functionality;check-login-sucessfull-with-valid-credentials;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13083998100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on login pagee",
+            "match": {
+              "location": "StepDefinations.datadrivenSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5184226200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter beta4-18nov@yopmail.com and Sit@1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "beta4-18nov@yopmail.com",
+                  "offset": 11
+                },
+                {
+                  "val": "Sit@1234",
+                  "offset": 39
+                }
+              ],
+              "location": "StepDefinations.datadrivenSteps.user_enter_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15298854400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click login buttonn",
+            "match": {
+              "location": "StepDefinations.datadrivenSteps.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6232776200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user will move to home pagee",
+            "match": {
+              "location": "StepDefinations.datadrivenSteps.user_will_move_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test3"
+          },
+          {
+            "name": "@test3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-24T13:21:05.155Z",
+        "line": 17,
+        "name": "Check Login sucessfull with valid credentials",
+        "description": "",
+        "id": "feature-to-test-login-functionality;check-login-sucessfull-with-valid-credentials;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12691057500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on login pagee",
+            "match": {
+              "location": "StepDefinations.datadrivenSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5199676700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter beta5-18nov@yopmail.com and Sit@1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "beta5-18nov@yopmail.com",
+                  "offset": 11
+                },
+                {
+                  "val": "Sit@1234",
+                  "offset": 39
+                }
+              ],
+              "location": "StepDefinations.datadrivenSteps.user_enter_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15206134000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click login buttonn",
+            "match": {
+              "location": "StepDefinations.datadrivenSteps.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6252334000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user will move to home pagee",
+            "match": {
+              "location": "StepDefinations.datadrivenSteps.user_will_move_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test3"
+          },
+          {
+            "name": "@test3"
+          }
+        ]
+      }
+    ],
+    "name": "Feature to test Login Functionality",
+    "description": "",
+    "id": "feature-to-test-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/datadriven.feature",
+    "tags": [
+      {
+        "name": "@test3",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
